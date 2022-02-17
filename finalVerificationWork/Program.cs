@@ -11,3 +11,9 @@ WriteLine("[\"hello\", \"2\", \"world\", \":)-\"] -> [\"2\", \":)-\"]");
 WriteLine(sourceArray[0].Length);
 int len = CountingElNewArray(sourceArray);
 WriteLine(len);
+string[] tempArray = CreatingNewArray(sourceArray, len);
+for (int i = 0; i < tempArray.Length; i++)
+{
+    Write($"{tempArray[i]}  ");
+}
+WriteLine();
