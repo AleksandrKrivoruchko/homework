@@ -6,14 +6,18 @@
 using static System.Console;
 using static finalVerificationWork.GamesWithArray;
 
+//string[] sourceArray = { "empty.stirng" }; // Для вывода пустого массива
+
 string[] sourceArray = { "hello", "2", "world", ":)-", "run", "for", "your", "job" };
-WriteLine("[\"hello\", \"2\", \"world\", \":)-\"] -> [\"2\", \":)-\"]");
-WriteLine(sourceArray[0].Length);
+
 int len = CountingElNewArray(sourceArray);
-WriteLine(len);
-string[] tempArray = CreatingNewArray(sourceArray, len);
-for (int i = 0; i < tempArray.Length; i++)
+if (len == 0)
 {
-    Write($"{tempArray[i]}  ");
+    WriteLine("[ ]");
+    Environment.Exit(1);
 }
-WriteLine();
+string[] tempArray = CreatingNewArray(sourceArray, len);
+string sourceStr = ConvertArrayToString(sourceArray);
+string resultStr = ConvertArrayToString(tempArray);
+Write(sourceStr + " -> ");
+WriteLine(resultStr);

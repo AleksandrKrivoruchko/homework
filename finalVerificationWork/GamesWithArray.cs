@@ -31,5 +31,24 @@ namespace finalVerificationWork
             }
             return resutArray;
         }
+
+        public static string ConvertArrayToString(string[] arrayForWork)
+        {
+            string str = "[ ";
+            int len = arrayForWork.Length;
+            for (int i = 0; i < len; i++)
+            {
+                if (i < len - 1)
+                {
+                    str += $"\"{arrayForWork[i]}\", ";
+                }
+                else
+                {
+                    str += $"\"{arrayForWork[i]}\" ";
+                }
+            }
+            str += "]";
+            return str;
+        }
     }
 }
