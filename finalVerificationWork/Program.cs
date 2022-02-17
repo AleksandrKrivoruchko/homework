@@ -6,9 +6,16 @@
 using static System.Console;
 using static finalVerificationWork.GamesWithArray;
 
+//string[] sourceArray = { "empty.stirng" }; // Для вывода пустого массива
+
 string[] sourceArray = { "hello", "2", "world", ":)-", "run", "for", "your", "job" };
 
 int len = CountingElNewArray(sourceArray);
+if (len == 0)
+{
+    WriteLine("[ ]");
+    Environment.Exit(1);
+}
 string[] tempArray = CreatingNewArray(sourceArray, len);
 string sourceStr = ConvertArrayToString(sourceArray);
 string resultStr = ConvertArrayToString(tempArray);
