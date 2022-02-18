@@ -21,3 +21,5 @@ string sourceStr = ConvertArrayToString(sourceArray);
 string resultStr = ConvertArrayToString(tempArray);
 Write(sourceStr + " -> ");
 WriteLine(resultStr);
+
+AlternativeSolution();
