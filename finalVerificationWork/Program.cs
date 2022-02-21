@@ -11,7 +11,7 @@ Clear();
 //string[] sourceArray = { "empty.stirng" }; // Для вывода пустого массива
 
 string[] sourceArray = { "hello", "2", "world", ":)-", "run", "for", "your", "job" };
-
+//******************** Массив задан изначально **************
 int len = CountingElNewArray(sourceArray);
 if (len == 0)
 {
@@ -23,7 +23,13 @@ string sourceStr = ConvertArrayToString(sourceArray);
 string resultStr = ConvertArrayToString(tempArray);
 Write(sourceStr + " -> ");
 WriteLine(resultStr);
+//************************************************************
 
+// ********* Для ввода массива с клавиатуры в виде строки *****
 //AlternativeSolution();
+// ************************************************************
+
+//************ Для ввода исходных данных из файла *************
 string fileName = "textForTest.txt";
 SolutionWithFile(fileName, " ");
+//*************************************************************
