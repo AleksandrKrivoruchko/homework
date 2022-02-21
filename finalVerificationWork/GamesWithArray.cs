@@ -14,6 +14,7 @@ namespace finalVerificationWork
             if (len == 0) return count;
             for (int i = 0; i < len; i++)
             {
+                if (arrayForWork[i] == null) continue;
                 if (arrayForWork[i].Length < 4)
                 {
                     count++;
@@ -46,7 +47,7 @@ namespace finalVerificationWork
         // Метод преобразовывает массив строк в форматированную для вывода строку.
         // The method convert an array of strings into a formatted string for output.
         // Parameters: string array.
-        // Return value: string. 
+        // Return value: string.
         public static string ConvertArrayToString(string[] arrayForWork)
         {
             string str = "[";
@@ -178,6 +179,11 @@ namespace finalVerificationWork
                 }
                 temp = TranslatingIntoArray(line, symbol);
                 len = CountingElNewArray(temp);
+                if (len == 0)
+                {
+                    WriteLine("[ ]");
+                    continue;
+                }
                 sourceStr = ConvertArrayToString(temp);
                 Write(sourceStr + " -> ");
                 string[] result = CreatingNewArray(temp, len);
