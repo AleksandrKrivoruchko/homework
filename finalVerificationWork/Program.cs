@@ -6,6 +6,8 @@
 using static System.Console;
 using static finalVerificationWork.GamesWithArray;
 
+Clear();
+
 //string[] sourceArray = { "empty.stirng" }; // Для вывода пустого массива
 
 string[] sourceArray = { "hello", "2", "world", ":)-", "run", "for", "your", "job" };
@@ -22,4 +24,6 @@ string resultStr = ConvertArrayToString(tempArray);
 Write(sourceStr + " -> ");
 WriteLine(resultStr);
 
-AlternativeSolution();
+//AlternativeSolution();
+string fileName = "textForTest.txt";
+SolutionWithFile(fileName, " ");
