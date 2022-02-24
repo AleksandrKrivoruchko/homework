@@ -35,6 +35,10 @@ namespace finalVerificationWork
             int j = 0;
             for (int i = 0; i < lenArray; i++)
             {
+                if (arrayForWork[i] == null)
+                {
+                    continue;
+                }
                 if (arrayForWork[i].Length < 4)
                 {
                     resutArray[j] = arrayForWork[i];

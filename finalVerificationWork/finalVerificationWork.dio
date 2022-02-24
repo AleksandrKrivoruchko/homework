@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="4ydMt_XgliNat3Zhrf8h" name="Страница 1">
-        <mxGraphModel dx="621" dy="270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="621" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -79,7 +79,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="rGmjFHyffovGKF7JwBXO" name="Страница 2">
-        <mxGraphModel dx="621" dy="270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="621" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="apBQH6PxCTzwCEd1M8bN-0"/>
                 <mxCell id="apBQH6PxCTzwCEd1M8bN-1" parent="apBQH6PxCTzwCEd1M8bN-0"/>
@@ -124,7 +124,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="IiDibbY9Dg3kAJgLQVv7-0" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="apBQH6PxCTzwCEd1M8bN-1" source="apBQH6PxCTzwCEd1M8bN-8" target="apBQH6PxCTzwCEd1M8bN-5">
+                <mxCell id="IiDibbY9Dg3kAJgLQVv7-0" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="apBQH6PxCTzwCEd1M8bN-1" source="apBQH6PxCTzwCEd1M8bN-8" target="apBQH6PxCTzwCEd1M8bN-5" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="140" y="440"/>
@@ -148,7 +148,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="V0iaYPWZGyH8E0dni9hx" name="Страница 3">
-        <mxGraphModel dx="621" dy="270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="621" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="HWUan3irROePAESGDkaX-0"/>
                 <mxCell id="HWUan3irROePAESGDkaX-1" parent="HWUan3irROePAESGDkaX-0"/>
@@ -212,7 +212,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="V6SOBKb9fF4fGv12ubwB" name="Страница 4">
-        <mxGraphModel dx="621" dy="270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="621" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="5YykTf1oAhr5qZkqxYuJ-0"/>
                 <mxCell id="5YykTf1oAhr5qZkqxYuJ-1" parent="5YykTf1oAhr5qZkqxYuJ-0"/>
