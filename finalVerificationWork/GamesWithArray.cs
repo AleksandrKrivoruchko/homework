@@ -30,7 +30,7 @@ namespace finalVerificationWork
         // Return value: new string array.
         public static string[] CreatingNewArray(string[] arrayForWork, int len)
         {
-            string[] resutArray = new string[len];
+            string[] resultArray = new string[len];
             int lenArray = arrayForWork.Length;
             int j = 0;
             for (int i = 0; i < lenArray; i++)
@@ -41,11 +41,11 @@ namespace finalVerificationWork
                 }
                 if (arrayForWork[i].Length < 4)
                 {
-                    resutArray[j] = arrayForWork[i];
+                    resultArray[j] = arrayForWork[i];
                     j++;
                 }
             }
-            return resutArray;
+            return resultArray;
         }
 
         // Метод преобразовывает массив строк в форматированную для вывода строку.
